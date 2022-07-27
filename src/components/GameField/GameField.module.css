@@ -1,0 +1,67 @@
+.gameFieldMainClass {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 125px;
+}
+
+.lvlGameFieldAndCompleted {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameField {
+    display: flex;
+    gap: 150px;
+    padding: 35px;
+}
+
+.gameFieldButton {
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.gameCoefficients {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 94px;
+    left: 150px;
+    top: 311px;
+}
+
+.winButton {
+    width: 200px;
+    height: 50px;
+}
+
+.startOverButton {
+    width: 200px;
+    height: 50px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

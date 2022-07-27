@@ -1,0 +1,13 @@
+.betAmountMain {
+    margin-top: 300px;
+}
+
+.inputAndButton {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input {
+    width: 250px;
+}
